@@ -1,0 +1,10 @@
+REACT:
+
+Reutilización de componentes:
+- Los componentes se pueden reutilizar
+- props, son las que nos permiten cambiar la estructura interna para hacer mas reutilizable el codigo
+-Las props se pasan por llaves pero Tambien e puede usar con un solo argumento accediendo al elemento del objeto
+-A las props se les pueden pasar cualquier tipo de datos(Boolean, object, array, str, number)
+
+UseState:
+-

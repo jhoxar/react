@@ -1,0 +1,33 @@
+$primary: #fff
+
+.cardContainer
+    width: 300px
+    background: $primary
+    border-radius: 12px
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+    padding: 20px
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+    cursor: pointer
+
+    &:hover
+        transform: translateY(-5px)
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15)
+
+.cardTitle
+    font-size: 1.5rem
+    text-align: center
+    font-weight: bold
+    color: #333
+    margin-bottom: 10px
+
+.cardImg
+    width: 80px
+    height: 80px
+    object-fit: contain
+    margin-bottom: 15px
+
+.cardContent
+    font-size: 1rem
+    text-align: justify
+    color: #666
+    line-height: 1.5
